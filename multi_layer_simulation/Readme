@@ -1,0 +1,6 @@
+multi_simulation:是在没合并页面的基础上进行的多层仿真。
+multi_simulation_combine_pages:是在合并页面的基础上进行的多层仿真。
+与之前的仿真相比，多层仿真主要是增加了两个类:Monitor和OSleak类，其中Monitor
+类是监测OS层和APP层的状态。而OSleak主要是是被注入内存泄漏，同时显示当前的内
+存使用信息。
+其中，使用的数据都是假的，这还得根据实验结果再设定。
